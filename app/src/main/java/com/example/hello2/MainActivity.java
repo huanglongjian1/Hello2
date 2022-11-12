@@ -114,6 +114,12 @@ public class MainActivity extends AppCompatActivity {
         // 步骤3：通过订阅（subscribe）连接观察者和被观察者
         // 即 顾客找到服务员 - 点菜 - 服务员下单到厨房 - 厨房烹调
         observable.subscribe(observer);
+        ooo();
+    }
+
+
+    public void ooo(){
+
     }
 
 }
